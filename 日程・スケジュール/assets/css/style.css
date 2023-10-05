@@ -1,0 +1,176 @@
+/* header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F5842A; */
+    /* padding:14px 40px ; */
+/* }
+
+.logo {
+    height: 50px;
+}
+
+.nav{
+   display: flex; 
+}
+
+.nav>li>a{
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.welcome{
+    background-image:url(../img/background.png) ;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* 原色→white */
+    /* カラーコード指定→＃FFFFFF */
+    /* rgb指定→red green blueの配合度で色を決める */
+    /* color: #FFFFFF;
+} */
+
+/* @media screen and (max-width: 780px){
+    .welcome{
+        height: 40vh;
+    }
+} */
+
+/* .title{
+    text-align: center;
+    font-size: 100px;
+    background-color: #a8ffff;
+    margin-top: 150px;
+    padding: 100px;
+} */
+
+.logo{
+    font-size: 20px;
+    width: 100%; /* 画像の幅を指定 */
+    height: 500px; /* 高さは自動調整（アスペクト比を保持） */
+}
+
+.description{
+    text-align: center; 
+    font-size: 30px;  
+
+}
+
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* 親要素の高さを適切な値に設定 */
+
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10px; /* 画像の下に配置 */
+    /* left: 10px; 画像の左に配置 */
+    left: 50%; /* 画面の横方向の中央に配置 */
+    transform: translateX(-50%); /* 横方向の中央配置 */
+     /* テキストの背景色 */
+    padding: 10px; /* テキストの周りの余白 */
+    padding-bottom: 95px;
+    text-align: center;
+    font-size: 100px;
+    top: 90%;
+    font-weight: bold;
+    background-color:#a8ffff;
+    
+    display: inline-block; /* 背景色をテキストの高さに合わせる */
+}
+
+
+
+.my-image1{
+    display: block; /* 画像をブロック要素として表示 */
+    margin: auto; /* 左右のマージンを自動で中央揃え */
+    width: 40%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.my-image2{
+    display: block; /* 画像をブロック要素として表示 */
+    margin: 0 auto; /* 左右のマージンを自動で中央揃え */
+    width: 760px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+.title3{
+    text-align: center;
+    margin-top: 350px;
+    font-size: 45px;
+    
+}
+
+.schedule-item {
+    width: 120%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    clip: rect(0, 50%, 100%, 0);
+}
+
+
+
+.title4{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 45px;
+    
+}
+
+
+.my-image3{
+    display: block; /* 画像をブロック要素として表示 */
+    margin: auto; /* 左右のマージンを自動で中央揃え */
+    width: 40%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.my-image4{
+    display: block; /* 画像をブロック要素として表示 */
+    margin: auto; /* 左右のマージンを自動で中央揃え */
+    width: 40%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.image-container {
+    position: relative; /* 相対位置指定 */
+    display: inline-block; /* インラインブロック要素として表示 */
+}
+
+/* 画像キャプション（テキスト）のスタイル */
+
+.my-image3 .image-caption2 {
+    position: absolute;
+    /* bottom: 10px;
+    left: 10px; */
+    top: 50%; /* 上から50%の位置に配置 */
+    left: 50%; /* 左から50%の位置に配置 */
+    transform: translate(-50%, -50%); /* 中央に移動 */
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
