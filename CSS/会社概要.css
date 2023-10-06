@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 1200px;
+}
+/* ----------------------------------------------------------- */
+.header-container{
+    height: 86px;
+    background-color: #a8ffff;
+    display: flex;
+}
+
+
+.header-logo{
+    height: 100%;
+}
+
+.ul{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 30px;
+}
+/* -------------------------------------------------------- */
+.top-wraper{
+    display: flex;
+
+   }
+.top-wraper{
+    width: 100vw;
+}
+.top-p{
+    width: 50%;
+}
+
+.top-img{
+    width: 50%;
+}
